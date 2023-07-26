@@ -1,0 +1,33 @@
+.img1 {
+    width: 150px;
+    height: 40px;
+    margin-bottom: 15px !important;
+}
+
+.btn1 {
+    padding: 12px 25px !important;
+    border-radius: 0px !important;
+    background-color: #1a1b1f !important;
+    -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease !important;
+    transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease !important;
+    color: #fff !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    letter-spacing: 2px !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    display: block !important;
+}
+
+@media (max-width:480px) {
+    .btn1 {
+       display: none !important;
+    }
+    .img1 {
+        width: 150px;
+        height: 40px;
+        margin-bottom: 5px !important;
+        align-self: center !important;
+        margin-top: 10px !important;
+    }
+}
